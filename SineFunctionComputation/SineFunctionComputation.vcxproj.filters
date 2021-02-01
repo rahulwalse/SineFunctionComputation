@@ -18,9 +18,27 @@
     <ClCompile Include="SineFunctionComputation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SineFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialSummation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExponentialGrowth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CosineFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="basicmathf.h">
+    <ClInclude Include="basicmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SineCosine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

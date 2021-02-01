@@ -139,10 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BasicMath.cpp" />
+    <ClCompile Include="CosineFunction.cpp" />
+    <ClCompile Include="ExponentialGrowth.cpp" />
+    <ClCompile Include="FactorialSummation.cpp" />
+    <ClCompile Include="SineFunction.cpp" />
     <ClCompile Include="SineFunctionComputation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="basicmathf.h" />
+    <ClInclude Include="basicmath.h" />
+    <ClInclude Include="SineCosine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

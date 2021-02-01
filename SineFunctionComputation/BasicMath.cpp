@@ -1,11 +1,13 @@
-//Header file to calculate basic maths functions like absolute of a number or factorial of number etc.
+/*
+    This source file contains functions for calculating some basic math functions like
+    absolute of a number, factorial of number and exponent x^y for given values of x & y.
+*/
 
-#pragma once
-
-//Function to return the absolute value of given number.
-float AbsoluteNumber(float number)
+/*Implementation of function to return the absolute value for a given number.*/
+float Absolute(float number)
 {
-    if (number < 0)   //If number is negative number then make it positive.
+    /*If number is negative number then make it positive.*/
+    if (number < 0)
     {
         return -number;
     }
@@ -15,7 +17,7 @@ float AbsoluteNumber(float number)
     }
 }
 
-//Method for calculating factorial of given number.
+/*Implementation of function for calculating factorial of a given number.*/
 float Factorial(int number)
 {
     int factorial = 1;
@@ -33,20 +35,21 @@ float Factorial(int number)
     }
 }
 
-//Mehod to calculate x raise to y (x^y) for given value of x and y.
+/*Implementation of function to calculate x raise to y (x^y) for given value of x and y.*/
 float Exponent(int base, int exponent)
 {
     float baseraisetoexponent;
     baseraisetoexponent = base;
-
-    if (exponent < 0)   //If the exponent is negative, make it positive and calculate 1/x^n.
+    /*If the exponent is negative, make it positive and calculate 1/x^n.*/
+    if (exponent < 0)
     {
         exponent = -exponent;
         baseraisetoexponent = 1 / Exponent(base, exponent);
         return baseraisetoexponent;
     }
-    else if (exponent == 0)   //If the exponent is 0, then the value will always be 1, as x^0=1.
+    else if (exponent == 0)
     {
+        /*If the exponent is 0, then the value will always be 1, as x^0=1.*/
         return 1;
     }
     else
